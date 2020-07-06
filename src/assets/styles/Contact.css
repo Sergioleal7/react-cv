@@ -1,0 +1,32 @@
+.Contact {
+    height: 80vh;
+    width: 100%;
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://i.imgur.com/EigrPP7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.Contact h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color:white;
+    padding-top: 25vh;
+}
+
+a .Contact__button  {
+
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+a .Contact__button:hover  {
+    background-color: white;
+    color: red;
+
+}

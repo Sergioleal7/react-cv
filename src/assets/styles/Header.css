@@ -1,0 +1,41 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    width: 100%;
+}
+.Header__logo {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.Header__logo:hover {
+    color: rgb(250, 24, 24);
+    text-decoration: none;
+}
+.Header__links {
+    list-style: none;
+}
+.Header__links  li {
+    display: inline-block;
+    margin-left: 20px;
+    display: none;
+}
+.Header__links  li a {
+    color: #333;
+}
+a .Header__button {
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 20px;
+}
+a .Header__button:hover {
+    background-color: rgb(250, 24, 24);
+    border: none;
+
+}
+
+
